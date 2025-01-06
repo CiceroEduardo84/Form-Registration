@@ -23,7 +23,17 @@ button {
     &:hover,
     &:focus {
       color: #e43a12;
-      outline: .25rem solid var(--surface-secondary);
+      outline: 0.25rem solid var(--surface-secondary);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  button {
+    text-align: center;
+
+    &.btn-secondary {
+      margin-left: 0;
     }
   }
 }

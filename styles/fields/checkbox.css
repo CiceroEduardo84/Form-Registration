@@ -24,6 +24,8 @@
         height: 1.5rem;
 
         background-image: url(../../assets/icons/checkbox-default.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     &:hover,

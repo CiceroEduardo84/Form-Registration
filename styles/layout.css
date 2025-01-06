@@ -3,7 +3,7 @@
   grid-template-columns: 51.25% 48.75%;
 
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 main {
@@ -37,7 +37,6 @@ aside {
 
     & > img {
       margin-top: 2rem;
-      
     }
   }
 
@@ -47,6 +46,50 @@ aside {
 
     & span {
       color: var(--text-highlight);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #app {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  main {
+    overflow: initial;
+    padding: 1.25rem;
+  }
+
+  aside {
+    padding: 1rem;
+
+    & .aside-container {
+      max-width: 100%;
+
+      & > img {
+        width: 75%;
+      }
+
+      img {
+        margin: auto;
+        display: block;
+      }
+    }
+
+    & h2,
+    & p {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  aside {
+    & .aside-container {
+      & > img {
+        width: 100%;
+      }
     }
   }
 }
