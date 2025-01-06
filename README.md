@@ -48,11 +48,14 @@ Make sure you have a modern browser to open the form.
 ### 🚀 Step by step
 1. Clone the repository:
 ```bash
-git clone https://github.com/CiceroEduardo84/Form-Registration.git```
+git clone https://github.com/CiceroEduardo84/Form-Registration.git
+```
 
 2. Access the project directory:
 ```bash
-cd Form-Registration```
+cd Form-Registration
+```
 3. Open the index.html file in the browser:
 ```bash
-open index.html```
+open index.html
+```
